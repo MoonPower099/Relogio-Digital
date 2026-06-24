@@ -47,3 +47,28 @@ body {
 .relogio span.tempo {
     font-size: 10px;
 }
+
+#tema {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body.dark {
+    background: linear-gradient(120deg, #111, #333);
+}
+
+body.dark .relogio div {
+    background: rgba(255, 255, 255, 0.9);
+    color: #111;
+}
+
+body.dark #tema {
+    background: #222;
+    color: white;
+}
