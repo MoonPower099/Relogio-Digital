@@ -3,7 +3,6 @@ const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 
 const gradientes = [
-    'linear-gradient(120deg, #ffe53b, #ff2525)',
     'linear-gradient(120deg, #00c6ff, #0072ff)',
     'linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045)',
     'linear-gradient(120deg, #11998e, #38ef7d)',
